@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="nav">
+        <h3>Mon site </h3>
+        <ul>
+          <li>
+             <a href="#">accueil</a>
+         </li>
+         <li>
+            <a href="#">boutique</a>
+         </li> 
+         <li>
+            <a href="#">blog</a>
+         </li>
+
+        </ul>
+        <div id="icons"></div>
+
+    </nav>
+
+    <main>
+        <section class="contact">
+
+            <div class="rectangle arrondis bloccontact">
+                <div class="rectangletxt">
+                    
+                    <h1 class="margeGtexte h1contact marge1">
+          
+                        Contactez nous !
+          
+                    </h1>
+                  
+                
+                    <form action="#" method="dialog" class="formcontact" id="form">
+                        <div class="flex nomdiv">
+                            <div class="div1">
+                                <input type="text" name="surname" placeholder="Prénom" required class="formprenom" id="prenom">
+
+                                <h5 id="error1"></h5>
+
+                            </div>
+                            <div class="div1">
+                                <input type="text" name="name" placeholder="Nom de famille" required class="formnom" id="nom">
+
+                                <h5 id="error2"></h5>
+
+                            </div>
+                        </div>
+                        
+                        <div class="flex nomdiv">
+                            <div class="div1">
+                                <input type="email" name="email" placeholder="Email" required class="formmail" id="email">
+
+                                <h5 id="error3"></h5>
+
+                            </div>
+                            <div class="div1">
+                                <input type="tel" name="telephone" placeholder="Téléphone" required class="formtel" id="telephone">
+
+                            </div>
+                        </div>
+                        
+                        <div class="flexcolumn">
+                            
+                            <select name="choix" id="choix">
+                                <option value="Motif">Choisir un objet</option>
+                                <option value="Choix1">Choix1</option>
+                                <option value="Choix2">Choix2</option>
+                                <option value="Choix3">Choix3</option>
+                                <option value="Choix4">Choix4</option>
+                                <option value="Choix5">Choix5</option>
+                                <option value="Choix6">Choix6</option>
+                            </select>
+
+                            <textarea name="message" placeholder="Entrez votre message ici..." required class="formmess"></textarea>
+
+
+                        </div>
+                        <div class="submitbtndiv">
+                            <div class="divcenter">
+                                <button type="submit" class="submitbtn">
+                                    Envoyer
+                                </button>
+                            </div>
+
+                            
+                            
+                        </div>
+
+                    </form>
+                
+
+                </div>
+                
+            </div>
+
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
